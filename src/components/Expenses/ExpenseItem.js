@@ -7,7 +7,7 @@ function ExpenseItem(props) {
     // const expenseDate = new Date(2023, 2, 28); // it's a date object
     const [title, setTitle] = useState(props.title)
     const clickHandler = () => {
-        setTitle('Updated!!');
+        setTitle('Updated!!!');
     }
     return (
         <Card className='expense-item'>
